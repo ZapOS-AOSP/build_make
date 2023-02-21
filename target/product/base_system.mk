@@ -398,7 +398,7 @@ PRODUCT_PACKAGES_DEBUG := \
     unwind_reg_info \
     unwind_symbols \
 
-ifeq ($(YAAP_BUILD),)
+ifeq ($(ZAP_BUILD),)
 PRODUCT_PACKAGES_DEBUG += \
     su
 endif
